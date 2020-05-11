@@ -1,0 +1,56 @@
+body {
+  background-color: #fff;
+  color: #000;
+  font-size: 12px;
+  font-family: 'Nanum Myeongjo', Courier, serif;
+  width: 210mm;
+  height: 297mm;
+}
+
+table {
+  border-collapse: collapse;
+  width: 99%;
+}
+
+table td {
+  border: 1px solid #000;
+  text-align: center;
+}
+
+legend {
+  margin-top: 50px;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.inline-box {
+  display: inline-block;
+}
+
+table.contract-date-table {
+  width: 300px !important;
+  float: right;
+}
+
+table.contract-date-table td {
+  border: 0;
+}
+
+.clr {
+  clear: both;
+}
+
+span.vip {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
